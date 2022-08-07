@@ -21,7 +21,7 @@ class StockDetailsScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  stock.year.toString(),
+                  "\$${stock.trade}",
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
                 ),
@@ -29,7 +29,7 @@ class StockDetailsScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
-                  stock.description,
+                  "\$${stock.change}",
                   textAlign: TextAlign.justify,
                   style: TextStyle(fontSize: 22.0),
                 ),

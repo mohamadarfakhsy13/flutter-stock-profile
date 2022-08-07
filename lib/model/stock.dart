@@ -1,70 +1,26 @@
 class Stock {
   String title;
-  String description;
-  int year;
+  double trade;
+  double change;
+  double open;
+  double bid;
+  double ask;
 
-  Stock({required this.title, required this.description, required this.year});
+  Stock({required this.title, required this.trade, required this.change, required this.open, required this.bid, required this.ask});
 }
 
 List<Stock> stockList = [
-  Stock(
-      title: 'The Shawshank Redemption',
-      description:
-          'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
-      year: 1994),
-  Stock(
-      title: 'Jumanji',
-      description:
-          'In Jumanji: The Next Level, the gang is back but the game has changed.',
-      year: 2019),
-  Stock(
-      title: 'The Godfather',
-      description:
-          'he aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son',
-      year: 1972),
-  Stock(
-      title: "The Godfather: Part II",
-      year: 1974,
-      description:
-          "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."),
-  Stock(
-      title: "The Dark Knight",
-      year: 2008,
-      description:
-          "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."),
-  Stock(
-      title: "12 Angry Men",
-      year: 1957,
-      description:
-          "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence."),
-  Stock(
-      title: "Schindler's List",
-      year: 1993,
-      description:
-          "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."),
-  Stock(
-      title: "The Lord of the Rings: The Return of the King",
-      year: 2003,
-      description:
-          "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."),
-  Stock(
-      title: "Pulp Fiction",
-      year: 1994,
-      description:
-          "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."),
-  Stock(
-      title: "The Good, the Bad and the Ugly",
-      year: 1966,
-      description:
-          "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."),
-  Stock(
-      title: "The Lord of the Rings: The Fellowship of the Ring",
-      year: 2001,
-      description:
-          "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."),
-  Stock(
-      title: "Fight Club",
-      year: 1999,
-      description:
-          "TAn insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.")
+  Stock(title: 'Bursa Malaysia', trade: 46.23, change: 44.34, open: 30.30, bid: 50.60, ask: 49.40),
+  Stock(title: 'HDFC Bank', trade: 56.23, change: 43.34, open: 50.30, bid: 50.60, ask: 60.40),
+  Stock(title: 'ITC Limited', trade: 36.23, change: 22.34, open: 40.30, bid: 50.60, ask: 36.40),
+  Stock(title: 'Titan Company', trade: 33.23, change: 14.34, open: 40.30, bid: 50.60, ask: 44.40),
+  Stock(title: 'Cipla', trade: 20.23, change: 44.34, open: 23.30, bid: 33.60, ask: 25.40),
+  Stock(title: 'Cnergenz', trade: 66.23, change: 44.34, open: 10.30, bid: 22.60, ask: 22.40),
+  Stock(title: 'Yew Lee Pacific Group', trade: 46.23, change: 44.34, open: 10.30, bid: 50.60, ask: 32.40),
+  Stock(title: 'Maybank', trade: 55.23, change: 44.34, open: 65.30, bid: 10.60, ask: 20.40),
+  Stock(title: 'Aeon Co (m)', trade: 20.23, change: 44.34, open: 40.30, bid: 30.60, ask: 10.40),
+  Stock(title: 'Top Glove', trade: 20.23, change: 44.34, open: 70.30, bid: 32.60, ask: 10.40),
+  Stock(title: 'Ajinomoto Malaysia Bhd', trade: 40.23, change: 70.50, open: 12.30, bid: 50.60, ask: 40.40),
+  Stock(title: 'Petronas Gas Berhad', trade: 32.23, change: 56.80, open: 12.30, bid: 50.60, ask: 65.40)
+  
 ];
