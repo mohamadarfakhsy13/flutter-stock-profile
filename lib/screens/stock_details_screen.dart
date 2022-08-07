@@ -40,6 +40,10 @@ class StockDetailsScreen extends StatelessWidget {
               child: Card(
                 child: Column(
                   children: [
+                    Text(
+                      'Company Stock Portfile',
+                      style: Theme.of(context).textTheme.headline6,
+                    ),
                     DefaultTextStyle.merge(
                       style: Theme.of(context).textTheme.headline4,
                       child: Row(
@@ -105,15 +109,17 @@ class StockDetailsScreen extends StatelessWidget {
               ),
             ),
             Container(
-              margin: const EdgeInsets.all(12.0,),
-              child: ElevatedButton(
-                  onPressed: _createPdf,
-                  child: Text("Print Report"),
-                ),
-            ),
-              SizedBox(
-                height: 50,
+              margin: const EdgeInsets.all(
+                12.0,
               ),
+              child: ElevatedButton(
+                onPressed: _createPdf,
+                child: Text("Print Report"),
+              ),
+            ),
+            SizedBox(
+              height: 50,
+            ),
           ],
         ));
   }
