@@ -1,10 +1,43 @@
-# flutter_listview_search
+# Name of project: Flutter Stock Portfolio
 
-A new Flutter project.
+This project is mainly purpose for Interview Assignment - Stock Portfolio. This repo is a demostration of flutter development using listview and main screen to display company list.
+
+## Author: Mohamad Arfakhsy bin Mohamad Adnan (mohamad.arfakhsy13@gmail.com)
+
+## This project uploaded for portfolio purpose
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+## Available functionalities:
+
++ Search list view
++ OnTap function to display details of stock portfolio
++ Print the report of stock portfolio
+
+How to run the app
+------------------
+
+To run the project clone the project
+
+    git clone https://github.com/mohamadarfakhsy13/flutter_stock_profile.git
+
+After done clone, open using any IDE to start the project.
+
+On vscode (if using xcode as IDE), go to terminal.
+
+Start any emulator. IOS or Android both can use since the project suppose as hybrid platform.
+
+Type flutter packages get - to download packages the flutter project.
+
+Once done download all packages. Click run button on top bar.
+
+## Screenshot demostration
+
+
+
+## Reference
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -14,3 +47,5 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
