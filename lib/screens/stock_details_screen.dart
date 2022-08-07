@@ -12,30 +12,68 @@ class StockDetailsScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(stock.title),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  "\$${stock.trade}",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 17.0, fontStyle: FontStyle.italic),
-                ),
+      body: Container(
+        padding: EdgeInsets.all(20.0),
+        child: Table(
+          defaultVerticalAlignment:
+              TableCellVerticalAlignment.middle, // this is new
+          children: [
+            TableRow(children: [
+              Text(
+                'Last Trade',
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  "\$${stock.change}",
-                  textAlign: TextAlign.justify,
-                  style: TextStyle(fontSize: 22.0),
-                ),
-              ),
-            ],
-          ),
+              Text("\$${stock.trade}",
+                  style: TextStyle(color: Colors.black, fontSize: 20))
+            ]),
+            TableRow(children: [
+              Text('Change', 
+              style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold)),
+              Text("\$${stock.change}",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20))
+            ]),
+            TableRow(children: [
+              Text('Open',
+              style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold)),
+              Text("\$${stock.open}",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20))
+            ]),
+            TableRow(children: [
+              Text('Bid',
+              style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold)),
+              Text("\$${stock.bid}",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20))
+            ]),
+            TableRow(children: [
+              Text('Ask',
+              style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold)),
+              Text("\$${stock.ask}",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 20))
+            ])
+          ],
         ),
       ),
     );
