@@ -27,9 +27,9 @@ After done clone, open using any IDE to start the project.
 
 On vscode (if using vscode as IDE), go to terminal.
 
-Start any emulator. IOS or Android both can use since the project suppose as hybrid platform.
+Start any emulator. IOS or Android both can use since the project is support on hybrid platform.
 
-Type flutter packages get - to download packages the flutter project.
+Type `flutter packages get` - to download packages the flutter project.
 
 Once done download all packages. Click run button on top bar.
 
