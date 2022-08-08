@@ -35,11 +35,11 @@ Once done download all packages. Click run button on top bar.
 
 ## Screenshot demostration
 
-![Screenshot](screenshot/01-pic.png)
-![Screenshot](screenshot/02-pic.png)
-![Screenshot](screenshot/03-pic.png)
-![Screenshot](screenshot/04-pic.png)
-![Screenshot](screenshot/05-pic.png)
+<img src="https://github.com/mohamadarfakhsy13/flutter_stock_profile/blob/main/screenshot/01-pic.png?raw=true" width="220" height="350">
+<img src="https://github.com/mohamadarfakhsy13/flutter_stock_profile/blob/main/screenshot/02-pic.png?raw=true" width="220" height="350">
+<img src="https://github.com/mohamadarfakhsy13/flutter_stock_profile/blob/main/screenshot/03-pic.png?raw=true" width="220" height="350">
+<img src="https://github.com/mohamadarfakhsy13/flutter_stock_profile/blob/main/screenshot/04-pic.png?raw=true" width="220" height="350">
+<img src="https://github.com/mohamadarfakhsy13/flutter_stock_profile/blob/main/screenshot/05-pic.png?raw=true" width="220" height="350">
 
 ## Reference
 
