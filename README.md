@@ -25,7 +25,7 @@ To run the project clone the project
 
 After done clone, open using any IDE to start the project.
 
-On vscode (if using xcode as IDE), go to terminal.
+On vscode (if using vscode as IDE), go to terminal.
 
 Start any emulator. IOS or Android both can use since the project suppose as hybrid platform.
 
